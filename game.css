@@ -1,4 +1,4 @@
-.game {
+body{
   display: inline-block;
   text-align; left;
   padding: 10px 100px ;
@@ -6,9 +6,3 @@
   backgound: lightblue;
 }
 
-/*
-.game main{
-  display: inline-block;
-  text-align; left;
-}
-*/

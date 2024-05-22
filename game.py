@@ -18,8 +18,8 @@ while (a < goal) and (b < goal) :
     print("---")
     a = a + random.randint( 1, 6 )
     b = b + random.randint( 1, 6 )
-    print( "a:" + "🌼🌷"  * a + "🦋" )
-    print( "b:" + "🍄🍀"  * b + "🐌" )
+    print( "a:" + "_🌼"  * a + "___🦋" )
+    print( "b:" + "_🍄"  * b + "___🐌" )
     #time.sleep(1)
     from time import sleep
     sleep(300)

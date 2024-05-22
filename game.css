@@ -1,7 +1,8 @@
 .game {
-  
+  display: inline-block;
+  text-align; left;
   padding: 10px 100px ;
-  text-align: center;
+/*   text-align: center; */
   backgound: lightblue;
 }
 

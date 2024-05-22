@@ -1,9 +1,10 @@
 body{
 /*   width: auto; */
 /*   padding-left: 300px; */
-  text-align: left;
+  text-align: center;
 }
 
 .game main{
-  text-align; center;
+  display: inline-block;
+  text-align; left;
 }

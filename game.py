@@ -11,7 +11,7 @@ goal = 20
 user = input("")
 
 #競争開始
-print("スタート")
+print("＼スタート！／")
     
 #aとb どちらもゴールしていない間続ける
 while (a < goal) and (b < goal) :
@@ -20,9 +20,9 @@ while (a < goal) and (b < goal) :
     b = b + random.randint( 1, 6 )
     print( "a:" + "_🌼"  * a + "___🦋" )
     print( "b:" + "_🍄"  * b + "___🐌" )
-    #time.sleep(1)
-    from time import sleep
-    sleep(300)
+    time.sleep(3)
+    #from time import sleep
+    #sleep(300)
 
 #勝者判定
 if a == b:

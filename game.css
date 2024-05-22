@@ -1,10 +1,13 @@
-body{
-/*   width: auto; */
-/*   padding-left: 300px; */
+.game {
+  
+  padding: 10px 100px ;
   text-align: center;
+  backgound: lightblue;
 }
 
+/*
 .game main{
   display: inline-block;
   text-align; left;
 }
+*/

@@ -26,7 +26,7 @@ while (a < goal) and (b < goal) :
 
 #勝者判定
 if a == b:
-    winner = "🦋同着🐌！"
+    winner = "ab" #"🦋同着🐌！"
 elif a > b :
     winner = "a"
 else :

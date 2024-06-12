@@ -1,6 +1,6 @@
 #ライブラリを使う宣言
 import random
-import time.sleep
+import time
 
 #変数の初期化
 a = 0
@@ -21,8 +21,8 @@ while (a < goal) and (b < goal) :
     print( "a:" + "_🌼"  * a + "___🦋" )
     print( "b:" + "_🍄"  * b + "___🐌" )
     time.sleep(3)
-    from time import sleep
-    sleep(300)
+    #from time import sleep
+    #sleep(300)
 
 #勝者判定
 if a == b:

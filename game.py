@@ -20,7 +20,7 @@ while (a < goal) and (b < goal) :
     b = b + random.randint( 1, 6 )
     print( "a:" + "_🌼"  * a + "___🦋" )
     print( "b:" + "_🍄"  * b + "___🐌" )
-    time.sleep(3)
+    time.sleep(1)
     #from time import sleep
     #sleep(300)
 

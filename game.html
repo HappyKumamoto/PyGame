@@ -9,18 +9,20 @@
 <!--   <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> -->
 <!--   <script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
 
-  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
-  <script defer src="https://pyscript.net/latest/pyscript.js"></script>   
-  
+<!--   <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"> -->
+<!--   <script defer src="https://pyscript.net/latest/pyscript.js"></script>    -->
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.6.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.6.1/core.js"></script>    
+ 
   <py-env>
-    -ramdom
     -time
   </py-env>
 </head>
   
 <body>
-
-  <py-script src="game.py"></py-script>
+  <div id="output"></div>
+  <py-script type="py" src=" ./game.py"config=" ./pyscript.json"></py-script>
   
 </body>
 </html>

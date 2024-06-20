@@ -11,15 +11,22 @@ goal = 20
 user = input("")
 
 #競争開始
-print("＼スタート！／")
+#print("＼スタート！／")
+pyscript.write("output" , "スタート")
     
 #aとb どちらもゴールしていない間続ける
 while (a < goal) and (b < goal) :
-    print("---")
+    #print("---")
+    pyscript.write("output" , "---")
+    
     a = a + random.randint( 1, 6 )
     b = b + random.randint( 1, 6 )
-    print( "a:" + "_🌼"  * a + "___🦋" )
-    print( "b:" + "_🍄"  * b + "___🐌" )
+    
+    #print( "a:" + "_🌼"  * a + "___🦋" )
+    #print( "b:" + "_🍄"  * b + "___🐌" )
+     pyscript.write("output" ,  "a:" + "_🌼"  * a + "___🦋")
+     pyscript.write("output" ,  "b:" + "_🍄"  * b + "___🐌")
+    
     time.sleep(1)
     #from time import sleep
     #sleep(300)
@@ -34,12 +41,15 @@ else :
 
 #予想は当たったかどうか
 if winner == user:
-    print("＼ ゴール！ ／")
-    print("**********************************")
-    print("************ 大当たり🎯 ************")
-    print("**********************************")
+    #print("＼ ゴール！ ／")
+    #print("**********************************")
+    #print("************ 大当たり🎯 ************")
+    #print("**********************************")
+    pyscript.write("output" ,  "大当たり🎯")
 else:
-    print("＼ ゴール！ ／")
-    print("***********************************")
-    print("*********** 🪴ざんねん🪴  ***********")
-    print("***********************************")
+    #print("＼ ゴール！ ／")
+    #print("***********************************")
+    #print("*********** 🪴ざんねん🪴  ***********")
+    #print("***********************************")
+    pyscript.write("output" ,  "🪴ざんねん🪴")
+    
